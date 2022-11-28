@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fecultypannel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/university"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/university"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FecultyPannel"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:label="Change Password"
+            android:theme="@style/Theme.FecultyPannel" />
+
+        <activity
+            android:name=".StudUpdateActivity"
+            android:label="Update Detail"
+            android:parentActivityName=".StudentDetailActivity"></activity>
+        <activity
+            android:name=".NoticeActivity"
+            android:label="Notice"
+            android:parentActivityName=".DashbordFacultyActivity"
+            android:theme="@style/Theme.FecultyPannel" />
+        <activity
+            android:name=".ResultShowSubjectActivity"
+            android:label="Results" />
+        <activity
+            android:name=".FecultyProfileActivity"
+            android:label="Feculty Profile" />
+        <activity
+            android:name=".AddAssignmentDetails"
+            android:label="Add Assignment"
+            android:parentActivityName=".AddAssignmentActivity"
+            android:theme="@style/Theme.withActionbarButBlack" />
+        <activity
+            android:name=".AddAssignmentActivity"
+            android:label="Add Assignmemt"
+            android:theme="@style/Theme.FecultyPannel4" />
+        <activity
+            android:name=".FinnalShowAllAttendenceStudActivity"
+            android:label="Show Attendence"
+            android:parentActivityName=".ShowAttendenceMonthActivity"
+            android:theme="@style/Theme.FecultyPannel3" />
+        <activity
+            android:name=".ShowAttendenceMonthActivity"
+            android:label="Attendance Months"
+            android:parentActivityName=".ShowAttendenceShowStudSDActivity" />
+        <activity
+            android:name=".ShowAttendenceShowStudSDActivity"
+            android:label="Attendance Students"
+            android:parentActivityName=".AttendenceFecultyActivity" />
+        <activity
+            android:name=".ShowFecultyAttendenceOfStud"
+            android:label="Attendence" />
+        <activity
+            android:name=".AttendenceListStudAPActivity"
+            android:label="Add Attendance"
+            android:theme="@style/Theme.FecultyPannel3" />
+
+        <activity
+            android:name=".AttendenceFecultyActivity"
+            android:label="Attendance"
+            android:parentActivityName=".DashbordFacultyActivity" />
+
+        <activity
+            android:name=".CreateResultSem6Activity"
+            android:label="Result Sem 6"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CreateResultSem5Activity"
+            android:label="Result Sem 5"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CreateResultSem4Activity"
+            android:label="Result Sem 4"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CreateResultSem3Activity"
+            android:label="Result Sem 3"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CreateResultSem2Activity"
+            android:label="Result Sem 2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CreateResultSem1Activity"
+            android:label="Result Sem 1"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ShowStudentSemWiseActivity"
+            android:label="Show Student" />
+        <activity
+            android:name=".ResultFecultyActivity"
+            android:label="Result" />
+        <activity
+            android:name=".TimeTableDataActivity"
+            android:label="Time Table" />
+        <activity
+            android:name=".AddTimeTableActivity"
+            android:label="Time Table" />
+        <activity
+            android:name=".StudentDetailActivity"
+            android:label="Student Detail" />
+        <activity
+            android:name=".ShowStudentListActivity"
+            android:label="All Student"
+            android:parentActivityName=".DashbordFacultyActivity" />
+        <activity
+            android:name=".AddStudentActivity"
+            android:label="Add Student"
+            android:parentActivityName=".DashbordFacultyActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".DashbordFacultyActivity"
+            android:theme="@style/Theme.FecultyPannel2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".RegistrationFecultyActivity"
+            android:label="Feculty Registration"
+            android:theme="@style/Theme.FecultyPannel2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LoginFecultyActivity"
+            android:theme="@style/Theme.FecultyPannel2"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.FecultyPannel2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

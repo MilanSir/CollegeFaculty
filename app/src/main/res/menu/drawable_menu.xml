@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_user1"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/item11"
+        android:title="Change Password"
+        android:icon="@drawable/ic_authentication"/>
+    <item
+        android:id="@+id/item3"
+        android:title="Add Student"
+        android:icon="@drawable/drawer_add_stud"/>
+
+    <item
+        android:id="@+id/item4"
+        android:title="Show Student"
+        android:icon="@drawable/ic_staff"/>
+    <item
+        android:id="@+id/item5"
+        android:title="Notice"
+        android:icon="@drawable/ic_notice"/>
+    <item
+        android:id="@+id/item6"
+        android:title="Add Time Table"
+        android:icon="@drawable/ic_time_table_icon"/>
+    <item
+        android:id="@+id/item7"
+        android:title="Add Result"
+        android:icon="@drawable/result_drawer"/>
+    <item
+        android:id="@+id/item8"
+        android:title="Add Attendance"
+        android:icon="@drawable/add_attendance"/>
+    <item
+        android:id="@+id/item9"
+        android:title="Show Attendance"
+        android:icon="@drawable/ic_attendance"/>
+    <item
+        android:id="@+id/item10"
+        android:title="Assignment"
+        android:icon="@drawable/drawer_assi"/>
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+
+</menu>
