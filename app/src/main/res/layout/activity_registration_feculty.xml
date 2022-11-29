@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationFecultyActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="7dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:id="@+id/faculty_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_user_image" />
+
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/il_faculty_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:hint="Faculty Name"
+                app:boxCornerRadiusBottomEnd="100dp"
+                app:boxCornerRadiusBottomStart="100dp"
+                app:boxCornerRadiusTopEnd="100dp"
+                app:boxCornerRadiusTopStart="100dp"
+                app:boxStrokeColor="#F2438C46"
+                app:boxStrokeErrorColor="#FF0000"
+                app:hintTextColor="#F2438C46"
+                app:startIconDrawable="@drawable/ic_user1"
+                app:startIconTint="#F2438C46">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/iet_faculty_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/il_faculty_email"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:hint="Email"
+                app:boxCornerRadiusBottomEnd="100dp"
+                app:boxCornerRadiusBottomStart="100dp"
+                app:boxCornerRadiusTopEnd="100dp"
+                app:boxCornerRadiusTopStart="100dp"
+                app:boxStrokeColor="#F2438C46"
+                app:boxStrokeErrorColor="#FF0000"
+                app:hintTextColor="#F2438C46"
+                app:startIconDrawable="@drawable/ic_email"
+                app:startIconTint="#F2438C46">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/iet_faculty_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/il_subject"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:hint="Subject"
+                app:boxCornerRadiusBottomEnd="100dp"
+                app:boxCornerRadiusBottomStart="100dp"
+                app:boxCornerRadiusTopEnd="100dp"
+                app:boxCornerRadiusTopStart="100dp"
+                app:boxStrokeColor="#F2438C46"
+                app:boxStrokeErrorColor="#FF0000"
+                app:hintTextColor="#F2438C46"
+                app:startIconDrawable="@drawable/ic_e_books"
+                app:startIconTint="#F2438C46">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/iet_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--<com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/il_faculty_gender"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:hint="Gender"
+                app:boxCornerRadiusBottomEnd="100dp"
+                app:boxCornerRadiusBottomStart="100dp"
+                app:boxCornerRadiusTopEnd="100dp"
+                app:boxCornerRadiusTopStart="100dp"
+                app:boxStrokeColor="#F2438C46"
+                app:boxStrokeErrorColor="#FF0000"
+                app:startIconTint="#F2438C46">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/iet_faculty_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>-->
+
+            <RadioGroup
+                android:id="@+id/f_radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="7dp"
+                android:background="@drawable/radio_btn_ring_shape"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:paddingVertical="3.7dp"
+                android:paddingLeft="25dp"
+                android:showDividers="beginning|middle|end">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="MALE" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="FEMALE" />
+
+                <RadioButton
+                    android:id="@+id/other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="OTHER" />
+            </RadioGroup>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/il_faculty_contact"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:hint="Contact"
+                app:boxCornerRadiusBottomEnd="100dp"
+                app:boxCornerRadiusBottomStart="100dp"
+                app:boxCornerRadiusTopEnd="100dp"
+                app:boxCornerRadiusTopStart="100dp"
+                app:boxStrokeColor="#F2438C46"
+                app:boxStrokeErrorColor="#FF0000"
+                app:hintTextColor="#F2438C46"
+                app:startIconDrawable="@drawable/ic_contact"
+                app:startIconTint="#F2438C46">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/iet_faculty_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/il_password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:hint="Password"
+                app:boxCornerRadiusBottomEnd="100dp"
+                app:boxCornerRadiusBottomStart="100dp"
+                app:boxCornerRadiusTopEnd="100dp"
+                app:boxCornerRadiusTopStart="100dp"
+                app:boxStrokeColor="#F2438C46"
+                app:boxStrokeErrorColor="#FF0000"
+                app:counterEnabled="true"
+                app:counterMaxLength="10"
+                app:hintTextColor="#F2438C46"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#F2438C46"
+                app:startIconDrawable="@drawable/ic_padlock"
+                app:startIconTint="#F2438C46">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/iet_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/il_confirm_pass"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:hint="Confirm Password"
+                app:boxCornerRadiusBottomEnd="100dp"
+                app:boxCornerRadiusBottomStart="100dp"
+                app:boxCornerRadiusTopEnd="100dp"
+                app:boxCornerRadiusTopStart="100dp"
+                app:boxStrokeColor="#F2438C46"
+                app:boxStrokeErrorColor="#FF0000"
+                app:counterEnabled="true"
+                app:counterMaxLength="10"
+                app:hintTextColor="#F2438C46"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#F2438C46"
+                app:startIconDrawable="@drawable/ic_padlock"
+                app:startIconTint="#F2438C46">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/iet_confirm_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_registration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="@drawable/login_btn_shape"
+                android:text="Registration" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

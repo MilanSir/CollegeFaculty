@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_btn_shape"
+                android:gravity="center"
+                android:text="SUBJECTS"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvCb"
+                android:checked="false"
+                android:text="101 Communication Skill" />
+
+            <CheckBox
+                android:id="@+id/cb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb1"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.5"
+                android:checked="false"
+                android:text="102 Maths" />
+
+
+            <CheckBox
+                android:id="@+id/cb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="103 Introduction computer" />
+
+            <CheckBox
+                android:id="@+id/cb4"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="104 CPPM" />
+
+            <CheckBox
+                android:id="@+id/cb5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvCb"
+                android:checked="false"
+                android:text="105 Office Automation Tools" />
+
+            <CheckBox
+                android:id="@+id/cb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb1"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="201 Organization Structure and Behaviour" />
+
+            <CheckBox
+                android:id="@+id/cb7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="202 Account" />
+
+            <CheckBox
+                android:id="@+id/cb8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="203 Operating System-I" />
+
+            <CheckBox
+                android:id="@+id/cb9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="204 Advance C" />
+
+            <CheckBox
+                android:id="@+id/cb10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="205 DBMS" />
+
+            <CheckBox
+                android:id="@+id/cb11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvCb"
+                android:checked="false"
+                android:text="301 State" />
+
+            <CheckBox
+                android:id="@+id/cb12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb1"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="302 Software Engineering-I" />
+
+            <CheckBox
+                android:id="@+id/cb13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="303 RDBMS" />
+
+            <CheckBox
+                android:id="@+id/cb14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="304 Data Structure" />
+
+            <CheckBox
+                android:id="@+id/cb15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="305 Object Oriented Programming" />
+
+            <CheckBox
+                android:id="@+id/cb16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvCb"
+                android:checked="false"
+                android:text="401 Information System" />
+
+            <CheckBox
+                android:id="@+id/cb17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb1"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="402 Software Engineering-II" />
+
+            <CheckBox
+                android:id="@+id/cb18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="403 Java Programming" />
+
+            <CheckBox
+                android:id="@+id/cb19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="404 VB.NET" />
+
+            <CheckBox
+                android:id="@+id/cb20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="405 Web Designing" />
+
+            <CheckBox
+                android:id="@+id/cb21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvCb"
+                android:checked="false"
+                android:text="501 PHP" />
+
+            <CheckBox
+                android:id="@+id/cb22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb1"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="502 Unix" />
+
+            <CheckBox
+                android:id="@+id/cb23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="503 Network Technologies" />
+
+            <CheckBox
+                android:id="@+id/cb24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="504 Operating System-II" />
+
+            <CheckBox
+                android:id="@+id/cb25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="505 ASP.NET" />
+
+            <CheckBox
+                android:id="@+id/cb26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvCb"
+                android:checked="false"
+                android:text="601 Computer Graphics" />
+
+            <CheckBox
+                android:id="@+id/cb27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb1"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="602 E-Commerce And Cuber Security" />
+
+            <CheckBox
+                android:id="@+id/cb28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb2"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="603 Project" />
+
+            <CheckBox
+                android:id="@+id/cb29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb3"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="604 Seminar" />
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_btn_shape"
+                android:text="ADD"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
