@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/logo" />
+                android:src="@drawable/university" />
 
         </androidx.cardview.widget.CardView>
 
@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="ADK College Of Computer Science And Business Manegment"
+            android:text="Excellus University of CS and Information Technology"
             android:textColor="@color/pista"
             android:textSize="20dp"
             android:textStyle="bold" />
